@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionMode</item>
+    </style>
+
+    <style name="AppTheme.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+    <item name="background">@color/colorPrimary</item>
+    <item name="height">?attr/actionBarSize</item>
+    </style>
+
+    <style name="DNDEventTextView" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+2
+    <style name="EventSaveButton" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#1976D2</item>
+        <item name="colorControlHighlight">#2196F3</item>
+    </style>
+    <style name="FullWidthEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@null</item>
+    </style>
+</resources>
